@@ -26,5 +26,5 @@ def setUpOutlook():
     time.sleep(5)
     dlg.AcceptButton.click_input()
     time.sleep(5)
-    os.system('cmd /k "Powershell.exe -ExecutionPolicy Unrestricted -file C:\\Users\\spencer\\ProvisioningFiles\\scripts\\pstfile.ps1"')
-setUpOutlook() 
+    os.system('cmd /k "Powershell.exe -ExecutionPolicy Unrestricted -file C:\\windows_poc_config\\scripts\\pstfile.ps1"')
+setUpOutlook()
