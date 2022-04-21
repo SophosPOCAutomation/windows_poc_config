@@ -16,5 +16,5 @@ Write-Host " - Starting Office Install ... "
 Start-Process -NoNewWindow -FilePath "D:\office\setup64.exe" -ArgumentList "/configure 'c:\windows_poc_config\assets\O365Install.xml'"
 
 Write-Host " - Running Office Python Setup Script ... "
-Start-Process -FilePath py.exe -ArgumentList "$PSScriptRoot\python\setupOutlook.py"
+Start-Process -FilePath py.exe -ArgumentList "c:\windows_poc_config\python\setupOutlook.py"
 
