@@ -13,7 +13,7 @@ $imgPath = "C:\office_2016_en_US.iso"
 Mount-DiskImage -ImagePath $imgPath
 
 Write-Host " - Starting Office Install ... "
-Start-Process -NoNewWindow -FilePath "D:\setup.exe" -ArgumentList "/configure $PSScriptRoot\assets\O365Install.xml /quiet /passive"
+Start-Process -NoNewWindow -FilePath "D:\office\setup64.exe" -ArgumentList "/configure $PSScriptRoot\assets\O365Install.xml /quiet /passive"
 
 Write-Host " - Running Office Python Setup Script ... "
 Start-Process -FilePath py.exe -ArgumentList "$PSScriptRoot\python\setupOutlook.py"
