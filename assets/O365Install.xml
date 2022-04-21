@@ -1,6 +1,6 @@
 <Configuration ID="a710fecc-9ddc-4803-8026-597b7786de43">
   <Info Description="" />
-  <Add OfficeClientEdition="64" Channel="Current">
+  <Add SourcePath="D:\office\" OfficeClientEdition="64">
     <Product ID="O365BusinessRetail">
       <Language ID="en-us" />
       <ExcludeApp ID="Access" />
