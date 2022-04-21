@@ -8,7 +8,7 @@ import os
 
 
 def setUpOutlook():
-    app=Application(backend="uia").start(r'C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE')
+    app=Application(backend="uia").start(r'C:\\Program Files\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE')
     #currentWindows=app.windows()
     time.sleep(2)
     dlg=app['Welcome to Microsoft Outlook 2016']
